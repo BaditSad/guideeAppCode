@@ -1,9 +1,9 @@
 <div align="center">
+  <img src=".github/assets/banner.png" alt="Guidee banner" width="100%" />
 
   <h1>Guidee</h1>
-
   <p>
-    Application mobile mettant en relation voyageurs et guides locaux pour la création de sorties sur mesure
+    Mobile app connecting travelers and local guides to build custom outings
   </p>
 
 <p>
@@ -14,32 +14,34 @@
     <img src="https://img.shields.io/github/languages/top/BaditSad/guideeAppCode" alt="top language" />
   </a>
 </p>
-
 </div>
 
 <br />
 
-# Table des matières
+## :notebook_with_decorative_cover: Table of Contents
 
-- [À propos](#à-propos)
-  * [Stack technique](#stack-technique)
-  * [Fonctionnalités](#fonctionnalités)
-- [Démarrage](#démarrage)
-  * [Prérequis](#prérequis)
-  * [Installation](#installation)
-  * [Lancer en local](#lancer-en-local)
-- [Contact](#contact)
+- [About](#star2-about)
+  * [Tech Stack](#space_invader-tech-stack)
+  * [Features](#dart-features)
+- [Getting Started](#toolbox-getting-started)
+  * [Prerequisites](#bangbang-prerequisites)
+  * [Installation](#gear-installation)
+  * [Run Locally](#running-run-locally)
+- [Contact](#handshake-contact)
 
-## À propos
+## :star2: About
 
-Guidee est une application mobile qui met en relation deux profils : les voyageurs (« user ») et les guides locaux (« pro »). Chaque profil dispose de son propre parcours d'inscription et de confirmation par email. Les voyageurs peuvent créer un projet de sortie ou de voyage puis découvrir des guides disponibles via un système de swipe, un peu comme un matching, avant d'organiser la sortie sur une carte.
+Guidee is a mobile app that connects two profiles: travelers ("user") and local guides ("pro"). Each profile
+has its own sign-up and email confirmation flow. Travelers can create an outing or trip project, then discover
+available guides through a swipe-based system, similar to matching, before organizing the outing on a map.
 
-Le projet a été généré avec FlutterFlow puis complété avec du code Dart natif pour les fonctionnalités métier, les notifications push et l'intégration Firebase.
+The project was generated with FlutterFlow and completed with native Dart code for business logic, push
+notifications and Firebase integration.
 
-### Stack technique
+### :space_invader: Tech Stack
 
 <details>
-  <summary>Application mobile</summary>
+  <summary>Mobile App</summary>
   <ul>
     <li><a href="https://flutter.dev/">Flutter</a></li>
     <li><a href="https://dart.dev/">Dart</a></li>
@@ -53,27 +55,27 @@ Le projet a été généré avec FlutterFlow puis complété avec du code Dart n
     <li><a href="https://firebase.google.com/">Firebase</a></li>
     <li>Cloud Firestore</li>
     <li>Firebase Cloud Functions</li>
-    <li>Notifications push Firebase</li>
+    <li>Firebase push notifications</li>
   </ul>
 </details>
 
-### Fonctionnalités
+### :dart: Features
 
-- Deux types de comptes distincts : voyageur et guide, avec inscription et confirmation email dédiées
-- Création de projet de sortie ou de voyage (`my_trip_creation`)
-- Parcours de configuration du prochain voyage en plusieurs étapes (`nexttrip1_1`, `nexttrip1_2`, `nexttrip1_3`)
-- Découverte des guides ou des sorties par swipe
-- Ajout de lieux ou d'étapes sur une carte
-- Notifications push pour le suivi des échanges
+- Two distinct account types, traveler and guide, with dedicated sign-up and email confirmation
+- Outing or trip project creation (`my_trip_creation`)
+- Multi-step next-trip configuration flow (`nexttrip1_1`, `nexttrip1_2`, `nexttrip1_3`)
+- Swipe-based guide and outing discovery
+- Adding places or stops on a map
+- Push notifications for conversation follow-up
 
-## Démarrage
+## :toolbox: Getting Started
 
-### Prérequis
+### :bangbang: Prerequisites
 
-- Flutter SDK installé
-- Un projet Firebase configuré (Firestore, Cloud Functions, Authentication)
+- Flutter SDK installed
+- A configured Firebase project (Firestore, Cloud Functions, Authentication)
 
-### Installation
+### :gear: Installation
 
 ```bash
 git clone https://github.com/BaditSad/guideeAppCode.git
@@ -81,13 +83,13 @@ cd guideeAppCode
 flutter pub get
 ```
 
-### Lancer en local
+### :running: Run Locally
 
 ```bash
 flutter run
 ```
 
-## Contact
+## :handshake: Contact
 
 Brieuc Dumortier
 
